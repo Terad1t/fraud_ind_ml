@@ -45,4 +45,4 @@ print(classification_report(y_test, y_pred))
 
 joblib.dump(pipeline, "model/fraud_model.pkl")
 
-print("Modelo salvo em model/fraud_model.pkl")
+print("modelo salvo em model/fraud_model.pkl")
